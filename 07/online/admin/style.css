@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+body {
+	margin:0;
+}
+#form {
+	margin-top: 15%;
+	z-index: 9999;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	max-width: 300px;
+	height:200px;
+	background-color: #4D9EF0;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: auto;
+}
+
+#form input[type="text"], #form input[type="password"] {
+	border: 0px;
+	width: 250px;	
+	height: 50px;
+	margin-bottom: 2px;
+	padding-left: 10px;
+	font-size:16px;
+}
+#form input[type="submit"]{
+	border: 0px;
+	padding: 1.0em 6.93em;	
+}#caption {
+	font-size: 24px;
+	margin-bottom:10px;
+}

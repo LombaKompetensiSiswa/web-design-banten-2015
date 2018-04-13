@@ -1,0 +1,167 @@
+html{
+	background:#f1f1f1;
+	font-family:"Comic Sans MS", cursive;
+}
+a{
+	text-decoration:none;
+}
+.login{
+	float:right;
+	background:#FFF;
+	padding:10px;
+	font-size:18px;
+	margin-top:15px;
+	font-family:"Comic Sans MS", cursive;
+	border-radius:10px 0 0 10px;
+}
+.daftar{
+	float:right;
+	background:#FF3C3C;
+	padding:10px;
+	font-size:18px;
+	margin-top:15px;
+	font-family:"Comic Sans MS", cursive;
+	border-radius:0 10px 10px 0;
+}
+.daftar a{
+		color:white;
+}
+.header{
+	margin:0 auto;
+	margin-top:30px;
+	background:#27A0BA;
+	border-radius:0 0 15px 15px;
+	text-align:LEFT;
+}
+.footer{
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+	height:50px;
+	bottom:0;
+	background:#27A0BA;
+	text-align:LEFT;
+}
+.text{
+	float:left;
+	color:white;
+	font-family:"Comic Sans MS", cursive;
+	font-size:20px;
+}
+.find{
+	float:right;
+	color:white;
+	font-family:"Comic Sans MS", cursive;
+	font-size:15px;
+}
+.findus{
+	width:25px;
+}
+.menu{
+	top:0;
+	background:#0099ff;
+	left:0;
+	position:fixed;
+	padding:2px;
+	width:100%;
+}
+.sub{
+	margin-left:10px;
+}
+.index{
+	margin-top:50px;
+	margin-left:50px;
+}
+.caption{
+	background:#999;
+	color:white;
+	font-size:20px;
+	margin-top:50px;
+	margin-bottom:20px;
+}
+.formt{
+	width:100%;
+	margin-top:50px;
+}
+.admin{
+	float:right;
+}
+.errordata{
+	text-align:center;
+	margin-top:250px;
+	color:red;
+}
+.sub a{
+	color:#000;
+}
+.menu a{
+	color:#FFF;
+	font-size:20px;
+	font-family:"Comic Sans MS", cursive;
+}
+.menu a:hover{
+	background:#03F;
+	color:#0F0;
+}
+.form{
+	margin:auto;
+	padding:15px
+	background:url(../img/bgf.jpg);
+	width:30%;
+}
+.textbox{
+	text-align:left;
+	font-size:24px;
+}
+.buy a:hover{
+	background:url(../img/buy1.png);
+}
+.search{
+	text-align:right;
+}
+.wrapper{
+	background:#FFF;
+	width:90%;
+	margin:auto;
+	height:800px;
+	box-shadow:#35372F 5px 7px 9px;
+}
+.margin-brg{
+	margin-top:20px;
+}
+.formlogin{
+	background:url(../img/bgf.jpg);
+	text-align:center;
+	width:50%;
+	margin:auto;
+	border:2px solid #000;
+}
+.margin-top{
+	margin-top:150px;
+}
+.button{
+	margin-top:15px;
+	background:#000;
+	font-family:"Comic Sans MS", cursive;
+	color:#FFF;
+}
+.error{
+	color:red;
+}
+.contents{
+	float:left;
+	width:70%;
+}
+.iklanbanner{
+	width:150px;
+	margin:10px;
+}
+.iklan{
+	float:right;
+	background:url(../img/bgf.jpg);
+	border:2px solid #000;
+	margin-top:5px;
+	height:400px;
+	width:20%;
+	padding:15px;
+}

@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding:0px;
+	margin:0px;
+	background:url(../image/Untitled-2.png);
+	width:auto;
+	height:auto;}
+#area{
+	width:980px;
+	height:800px;
+	margin-left:auto;
+	margin-right:auto;}
+#area #bener{
+	width:980px;
+	height:120px;}
+#area #bener img{
+	padding:7px;
+}
+
+
+#area #nav{
+	widows:980px;
+	height:30px;}
+#area #nav form{
+	float:right;}
+#area #nav ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;}
+#area #nav li{
+	float:left;
+	padding-left:7px;
+	line-height:30px;
+	}
+#area #nav ul a{
+	text-decoration:none;
+	font-size:12px;
+	font-family:Geneva, sans-serif;
+	color:#000;
+	display:block;
+	}
+#area #nav ul a:hover{
+	background:#666;
+	color:#FFC;}
+#area #conten{
+	widows:980px;
+	height:600px;}
+#area #conten #kiri{
+	padding-top:7px;
+	width:200px;
+	height:630px;
+	border-right:solid #000 1px;
+	float:left;}
+	
+#area #conten #kiri tr a{
+	display:block;
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;}
+#area #conten #kiri tr a:hover{
+	background:#999;
+	color:#FF6;}
+#area #conten #kanan{
+	width:770px;
+	height:630px;
+	overflow:scroll;
+	float:right;}
+#foter{
+	background:#000;
+	width:auto;
+	height:50px;
+	text-align:center;
+	color:#FFF;
+	line-height:50px;}

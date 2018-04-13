@@ -1,0 +1,1 @@
+mysql_query("select b.idbarang,b.namabarang,b.harga,p.jumlah,p.tgl,m.username from barang b, penjualan p, member m, kategori k where (b.idbarang=p.idbarang)and(m.idmember=p.idmember)and()and()and(idbarang='$idbarang')");

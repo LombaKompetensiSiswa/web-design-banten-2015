@@ -1,0 +1,188 @@
+#logo {
+	background-color: #FFF;
+	height: 50px;
+	width: 100%;
+}
+#header {
+	width: 100%;
+	height: 43px;
+	background-color: #222;
+	z-index: 999;
+}
+.content {
+	width: 85%;
+	height: 41px;
+	margin: 0 auto;
+}
+#konten {
+	width: 85%;
+	padding:1%;
+	min-height:600px;
+	background:#fff;
+	box-shadow:0 0 1px #999;
+	margin:10px auto;
+	overflow: auto;
+	height: auto;
+	max-height: 5000px;
+}
+.kotak {
+	height: 200px;
+	width: 200px;
+	background:#06C;
+	border-radius:50%;
+	transition:200ms;
+	overflow:hidden;
+}
+.kotak:hover{
+	box-shadow:0 0 10px black inset;
+	transform:rotate(45deg);
+	cursor:pointer;
+}
+#konten table tr td .kotak h3 {
+	color: #FFF;
+}
+#k1 {
+	background:#06C;
+}
+#k2 {
+	background:#F30;
+}
+#k3 {
+	background:#090;
+}
+#k4 {
+	background:#63C;
+}
+#cari {
+	width:30%;
+	float:right;
+	height:42px;
+}#header .content #cari {
+	color: #CCC;
+}
+#formcari {
+	margin-top:5px;
+	float:right;
+}
+#rightbar {
+	width: 96%;
+	float: left;
+	padding: 1%;
+	background: #f1f1f1;
+	height: auto;
+	min-height: 600px;
+	max-height: 6000px;
+	overflow: auto;
+}
+.produk {
+	width: 24.5%;
+	height: 500px;
+	box-shadow:0 0 3px #999;
+	display: inline-block;
+}
+.aaa {
+	color: #FFF;
+}
+#menu {
+	width:98%;
+	padding:1%;
+	background:#CCC;
+}#menu {
+	font-size: 16px;
+	color: #000;
+}
+#banner {
+	width:100%;
+	height:auto;
+}
+#about {
+	width: 90%;
+	text-align: justify;
+	margin: 10px auto;
+}
+#footer {
+	height: 75px;
+	width: 100%;
+	background: #ccc;
+}
+#kaki {
+	background-color: #333;
+	height: 42px;
+	width: 100%;
+}
+#kaki table tr td {
+	color: #FFF;
+}
+#apDiv1 h1 {
+	color: #FFF;
+}
+#login {
+	height: 600px;
+	width: 85%;
+	margin: 70px auto;
+	background: white;
+}
+#apDiv1 table tr td form p label {
+	color: #FFF;
+}
+#apDiv1 p {
+	color: #FFF;
+	text-align: center;
+}
+#keterangan {
+	width: 60%;
+	padding: 1%;
+}
+#login #keterangan h1 {
+	text-align: left;
+}
+#result {
+	width: 400px;
+}
+#logo table tr td h2 {
+	color: #FFF;
+}
+#header .content table tr td h3 {
+	color: #FFF;
+}
+#headd {
+	height: 70px;
+	width: 100%;
+	background: #222;
+}
+#headd table tr td h1 {
+	color: #FFF;
+}
+#menud {
+	height: 100%;
+	width: 8em;
+	position: absolute;
+	background: #222;
+}
+#dasbor {
+	width: 85%;
+	position: relative;
+	margin: 10px 10%;
+	padding: 1%;
+	background: #fff;
+	min-height: 600px;
+	max-height: 5000px;
+	overflow: auto;
+	box-shadow:0 0 1px #999;
+}
+#dasbor table tr td strong {
+	color: #FFF;
+}
+#dasbor table tr td {
+	color: #333;
+}
+.aaa {
+	text-align: left;
+	color: #333;
+}
+.judul {
+	color: #FFF;
+}
+.pakaian {
+	color: #FFF;
+}

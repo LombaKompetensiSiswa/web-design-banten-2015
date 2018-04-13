@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+#atas{
+	background-color:#3eade0;
+	height:35px;
+	width:100%;
+	position:fixed;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:0;
+}
+#body{
+	box-shadow:0px 0px 4px #000;
+}
+#body2{
+	box-shadow:0px 0px 4px #000;
+	padding-top:40px;
+}
+.link{
+	text-decoration:none;
+	border-radius:3px;
+	color:#000;
+	-webkit-transition:background 0.3s, 0.3s;
+	-moz-transition:background 0.3s, 0.3s;
+	 transition:background 0.3s, 0.3s;
+	height:40px;
+	width:0 auto;
+
+}
+.link:hover{
+	padding-bottom:9px;
+	padding-left:9px;
+	padding-right:9px;
+	padding-top:9px;
+	background-color:#09c;
+	text-decoration:none;
+	height:40px;
+	width:0 auto;
+	border-radius:3px;
+	color:#FFF;
+	-webkit-transition:background 0.3s, 0.3s;
+	-moz-transition:background 0.3s, 0.3s;
+	 transition:background 0.3s, 0.3s;
+}
+#menu{
+	background-color:#3eade0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#000;
+}
+.lgcari{
+	border-radius:4px;
+	height:25px;
+	width:200px;
+}
+.btncari{
+	background-color:#0076EC;
+	border-radius:5px;
+	color:#000;
+	font-size:14px;
+	height:30;
+}
+.btncari:hover{
+	background-color:#006BD7;
+	border-radius:5px;
+	color:#FFF;
+	font-size:14px;
+	height:30;
+	cursor:pointer;
+}
+.login{
+	height:40px;
+	width:200px;
+	border-radius:4px;
+	padding-left:10px;
+}
+.box{
+	display:block;
+	text-decoration:none;
+	border-radius:4px;
+	color:#000;
+	font-size:16px;
+	padding-left:10px;
+	height:40px;
+	width:0 auto;
+}
+.box:hover{
+	background-color:#3eade0;
+	display:block;
+	text-decoration:none;
+	border-radius:4px;
+	color:#000;
+	font-size:16px;
+	padding-left:10px;
+	color:#FFF;
+		height:40px;
+	width:0 auto;
+
+}
+

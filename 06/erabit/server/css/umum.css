@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#f1f1f1;
+	margin:0;
+}
+a:link {
+	color: #36C;
+	text-decoration:none;
+}
+a:visited {
+	color: #36C;
+	text-decoration:none;
+}
+a:hover {
+	color: #09F;
+	cursor:pointer;
+	text-decoration:none;
+}
+a:active {
+	color: #36C;
+	text-decoration:none;
+}
+h1 {
+	color: #000;
+	font-style: italic;
+	text-align: center;
+
+}
+h2 {
+	color: #333;
+}
+h3 {
+	color: #333;
+}
+h4 {
+	color: #666;
+}
+h5 {
+	color: #666;
+}
+h6 {
+	color: #666;
+}
+input, select, textarea { 
+	font-family:"Segoe UI", "Segoe UI Light", "Segoe UI Symbol";
+	padding:7px;
+	border:1px solid #999;
+	border-radius:1px;
+}
+input:focus, select:focus {
+	box-shadow:0 0 1px #999 inset;
+}
+input[type=submit], button {
+	background:#06C;
+	border-radius:5px;
+	padding:7px;
+	color:white;
+	transition:100ms;
+	border:none;
+}
+input[type=submit]:hover, button:hover {
+	background:#039;
+	cursor:pointer;
+}
+.sticky {
+position:fixed;
+top:0;
+box-shadow:0 0 10px black;
+}
+#banner {
+	overflow:hidden;
+}
+#banner figure img {
+	float:left; width:20%;
+}
+#banner figure {
+	text-align:left;
+	margin:0;
+	font-size:0;
+	width:500%;
+	position:relative;
+	left:0;
+	animation : agun 20s infinite;
+}
+@keyframes agun {
+ 0%{margin-left:0%;}	
+ 20%{margin-left:0%;}
+ 25%{margin-left:-100%;}
+ 45%{margin-left:-100%;}
+  50%{margin-left:-200%;}
+   70%{margin-left:-200%;}
+    75%{margin-left:-300%;}
+	 95%{margin-left:-300%;}
+	  100%{margin-left:-400%;}
+}
+@-webkit-keyframes agun {
+ 0%{margin-left:0%;}	
+ 20%{margin-left:0%;}
+ 25%{margin-left:-100%;}
+ 45%{margin-left:-100%;}
+  50%{margin-left:-200%;}
+   70%{margin-left:-200%;}
+    75%{margin-left:-300%;}
+	 95%{margin-left:-300%;}
+	  100%{margin-left:-400%;}
+}
+@media-screen and (max-width:900px) {
+	.produk {width:49%;}
+}
+table, th, td {
+	border-collapse:collapse;
+	}
+.merah {
+		background:#C00;
+	border-radius:5px;
+	padding:7px;
+	color:white;
+	transition:100ms;
+	border:none;
+	cursor:pointer;
+}
+.hijau {
+		background:#090;;
+	border-radius:5px;
+	padding:7px;
+	color:white;
+	transition:100ms;
+	border:none;
+	cursor:pointer;
+}

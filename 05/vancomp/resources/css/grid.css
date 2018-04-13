@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+body{
+	font-family : 'Arial Narrow';
+	line-height:20px;
+}
+
+a{
+	text-decoration:none;
+}
+.content{
+	margin-bottom: 20px;
+}
+
+.shadow{
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/***************** GRID ***************/
+
+.grid{
+	width:100%;
+	margin:0 auto;
+}
+.grid:after{
+	content: '';
+	display: table;
+	clear:both
+}
+[class*='col-']{
+	float: left;
+	padding:0 10px;
+}
+.container{
+	width:100%;
+	max-width:960px;
+	margin: 0 auto;
+}
+.no-padd{
+	padding: 0 !important
+}
+.center{
+	margin:0 auto;
+}
+.full-width{
+	width:100%;
+}
+.right{
+	float:right !important;
+}
+
+
+/***************** COLUMN ***************/
+
+.col-12{
+	width:100%;
+}
+.col-9{
+	width:75%;
+}
+.col-8{
+	width:66.66%;
+}
+.col-6{
+	width:50%;
+}
+.col-4{
+	width:33.33%;
+}
+.col-3{
+	width:25%;
+}
+
+
+/***************** RESPONSIVE ***************/
+
+@media (max-width:480px){
+	.col-12,.col-9,.col-8,.col-6,.col-4,.col-3{
+		display:block;
+		width : 100%;
+	}
+}
+
+@media (min-width:481px) and (max-width:768px){
+	.col-12,.col-9,.col-8,.col-6,.col-4,.col-3{
+		display:block;
+		width : 100%;
+	}
+}
